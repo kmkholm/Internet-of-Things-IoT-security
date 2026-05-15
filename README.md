@@ -1,3 +1,40 @@
+
+
+# 🔬 IoT Protocol Simulator
+
+A modern, all-in-one teaching and research tool for IoT messaging protocols, built with Python and CustomTkinter.
+
+Simulates **MQTT, MQTTS, CoAP, AMQP, Zigbee, Z-Wave, and NFC** in a single dark-themed GUI with live sensor dashboards, real-time plots, and color-coded protocol logs.
+
+## ✨ Features
+
+- **📊 Dashboard** — 12 live virtual sensors (temperature, humidity, pressure, light, CO₂, gas, PM2.5, sound, heart rate, vibration, UV, motion) with mean-reverting random-walk models. Publishes JSON telemetry over MQTT/MQTTS at adjustable rate (0.5–10 Hz) with live matplotlib plots in a 3×4 grid.
+- **📡 Monitor** — MQTT subscriber that auto-discovers sensors from incoming topics and plots them in real time.
+- **📨 MQTT / 🔒 MQTTS** — Full publisher/subscriber with QoS 0/1/2, retain flag, username/password, multiple public broker presets (HiveMQ, EMQX, Mosquitto), and CONNACK timeout warnings.
+- **🌐 CoAP** — RFC 7252 client + server with live resource management. Add, edit, and remove resources on a running server with no restart. Pre-loaded examples + `/.well-known/core` discovery.
+- **🐰 AMQP 0-9-1** — Works **without RabbitMQ** using a built-in in-memory broker. Full direct/fanout/topic/headers routing. Optional Real RabbitMQ mode via `pika`.
+- **🐝 Zigbee** — IEEE 802.15.4 + ZCL simulator. PAN ID, channels 11–26, AES-128-CCM* keys, device templates (Smart Light, Dimmer, Plug, Temp/Humidity/Motion sensors), full ZCL frame logging.
+- **📡 Z-Wave** — Sub-GHz mesh simulator. 32-bit Home ID, 6 regional frequencies, S0/S2 security, command classes (Switch Binary, Multilevel, Sensor, Battery, Version, etc.), inclusion mode.
+- **📱 NFC** — NDEF tag simulator (no hardware needed). Type 1–5 tags, records for Text/URI/WiFi/SmartPoster/vCard/MIME/External, hex dump, JSON/binary export.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR-USERNAME/iot-protocol-simulator.git
+cd iot-protocol-simulator
+pip install -r requirements.txt
+python iot_protocol_simulator.py
+```
+
+### Dependencies
+
+
+
+
+
+
 # Internet-of-Things-IoT-security
 
 > ⚠️ **Important:** install with the same Python that runs the script. On startup, the terminal prints the Python executable path so you can verify.
