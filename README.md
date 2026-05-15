@@ -88,7 +88,8 @@ python iot_protocol_simulatorv.py
 
 ## 📸 Screenshots
 
-> _(Add screenshots of Dashboard, Monitor, CoAP, Zigbee here)_
+<img width="1918" height="998" alt="zigbee" src="https://github.com/user-attachments/assets/7c99d3ec-edae-4203-acc7-7fe5a2e6a12c" />
+
 
 ---
 
