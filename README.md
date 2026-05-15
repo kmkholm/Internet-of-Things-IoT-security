@@ -22,10 +22,10 @@ Simulates **MQTT, MQTTS, CoAP, AMQP, Zigbee, Z-Wave, and NFC** in a single dark-
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/iot-protocol-simulator.git
+git clone git@github.com:kmkholm/Internet-of-Things-IoT-security.git
 cd iot-protocol-simulator
 pip install -r requirements.txt
-python iot_protocol_simulator.py
+python iot_protocol_simulatorv.py
 ```
 
 ### Dependencies
